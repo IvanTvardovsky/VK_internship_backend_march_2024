@@ -1,0 +1,15 @@
+---
+
+listen:
+  bind_ip: 0.0.0.0
+  port: 8080
+storage:
+  host: localhost
+  port: 5432
+  database: vk_march_backend
+  username: postgres
+  password: bebra123
+authorization: # just example, in deployment use environment
+  key: a-big-secret
+token:
+  expires: 3d
